@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Ben Joshua B. Solanor"
+        android:textAllCaps="true"
+        android:textColor="#1E3163"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:text="Number 1 "
+        android:textColor="#1E3163" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_custom_input"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:textColor="@color/babypink"
+        android:textSize="14sp"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck"></EditText>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:text="Number 2"
+        android:textColor="#1E3163" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ic_custom_input"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:textColor="@color/babypink"
+        android:textSize="14sp"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:text="Result"
+        android:textColor="#1E3163" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/ic_custom_input"
+        android:ems="10"
+        android:padding="10dp"
+        android:textSize="14sp"
+        android:textColor="@color/babypink"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/bg_menu"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="Addition"
+            android:theme="@style/Theme.Design.Light"
+            android:textColor="@color/babypink"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="Subtraction"
+            android:theme="@style/Theme.Design.Light"
+            android:textColor="@color/babypink"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="Multiplication"
+            android:theme="@style/Theme.Design.Light"
+            android:textColor="@color/babypink"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="Division"
+            android:theme="@style/Theme.Design.Light"
+            android:textColor="@color/babypink"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="10dp"
+            android:text="Clear"
+            android:theme="@style/Theme.Design.Light"
+            android:textColor="@color/babypink"/>
+
+    </LinearLayout>
+
+</LinearLayout>

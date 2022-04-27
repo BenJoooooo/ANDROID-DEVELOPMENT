@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/leftarrow"
+                android:padding="15dp"
+                android:layout_marginStart="-20dp"
+                android:layout_centerVertical="true"/>
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_customize"
+                android:text="@string/Main"
+                android:textColor="@color/dark_gray"
+                android:layout_marginStart="50dp"/>
+        </RelativeLayout>
+
+        <!--        Main Menu-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Paraluman"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!--        First Verse-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Verse 1]\nSa unang tingin agad na nahumaling\nSa nagniningning mong mga mata\nIka'y isang bituwin na nagmula sa langit\n
+Hindi ko mawari\nAng taglay mong tinatangi\nSadya namang, nakakabighani\n'Di maipaliwanag ang nararamdaman (Ooh)\n\n[Pre-Chorus\nNamumukadkad ang aking ligaya
+\nSa tuwing ika'y papalapit na\nHawakan mo ang aking kamay"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--    Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Chorus]\nO paralumanIka'y akin nang\nDadalhin sa 'Di mo inaasahanag Paraiso \n(Hoo hoo)\nPalagi kitang\n
+Aawitan ng kundiman\n'Di ka pababayaan Isasayaw kita\nHanggang sa walang hanggan\n(Hoo hoo,hoo hoo)"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--    Second Verse-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Verse 2]\nMga gunita na laging naiisip (Naiisip)\nSumusulip (Sumisilip) Ang itinakda ng\n
+mahiwagang Liwanag na dulot mo Nagbigay\nsinag sa madilim kong mundo Ibang-iba ako\nKapag ikaw na ang kapiling\nSumisiping ang buwan at mga bituwin na para\n
+bang sumasang-ayon sa atin ang kalawakan\n(Kalawakan)\n[Pre-Chorus\nNamumukadkad ang aking ligaya
+\nSa tuwing ika'y papalapit na\nHawakan mo ang aking kamay"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Post-Chorus]\nO paparapapa (Hoo hoo, hoo hoo)\nParapapaparapaluman(hoo hoo, hoo hoo)\nParapapaparaluman
+(hoo hoo, hoo hoo)\nParapapaparapaluman(hoo hoo, hoo hoo)\nParapapaparaluman\n\n[Bridge]\nHimig ng tadhana Sa atin ay tumutugma na\n(Tumutugma na)
+\nHimig ng tadhana sa atin ay tumutugma na\n(tumutugma na)\nSa atin ay tumutugma na (Hoo hoo, hoo hoo)\n(Hoo hoo, hoo hoo)(Hoo hoo, hoo hoo)\n"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--    Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="390dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Chorus]\nO paralumanIka'y akin nang\nDadalhin sa 'Di mo inaasahanag Paraiso \n(Hoo hoo)\nPalagi kitang\n
+Aawitan ng kundiman\n'Di ka pababayaan Isasayaw kita\nHanggang sa walang hanggan\n(Hoo hoo,hoo hoo)"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

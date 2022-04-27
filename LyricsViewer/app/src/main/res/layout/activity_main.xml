@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_margin="10dp"
+        android:orientation="vertical">
+
+<!--        Main Menu-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Menu"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+<!--        Songs For You-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Songs For You"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+<!--        Paraluman Song 1-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/imagecontainer"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Paraluman"
+                    android:textColor="@color/medium_gray"
+                    android:padding="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:textSize="30sp"/>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:text="Play now"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+<!--        Perfect Song 2-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/medium_gray"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="15dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/imagecontainer">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:padding="50dp"
+                    android:text="Perfect"
+                    android:textColor="@color/medium_gray"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play now"
+                    android:textColor="@color/white"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+<!--        Little Thins Song 3-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/imagecontainer"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:padding="50dp"
+                    android:text="Little Things"
+                    android:textColor="@color/medium_gray"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play now"
+                    android:textColor="@color/white"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+<!--        Miles Apart Song 4-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/medium_gray"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="20dp"
+            app:cardElevation="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/imagecontainer">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:padding="50dp"
+                    android:text="Miles Apart"
+                    android:textColor="@color/medium_gray"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play now"
+                    android:textColor="@color/white"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+<!--        Best Part Song 5-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/imagecontainer"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Best Part"
+                    android:textColor="@color/medium_gray"
+                    android:padding="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:textSize="30sp"/>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Play now"
+                    android:textColor="@color/white"
+                    android:background="#00000000"
+                    android:padding="20dp"
+                    android:textSize="15sp"
+                    android:layout_alignParentBottom="true"/>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/leftarrow"
+                android:padding="15dp"
+                android:layout_marginStart="-20dp"
+                android:layout_centerVertical="true"/>
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_customize"
+                android:text="@string/Main"
+                android:textColor="@color/dark_gray"
+                android:layout_marginStart="50dp"/>
+        </RelativeLayout>
+
+        <!--        Main Menu-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Miles Apart"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!--        First Verse-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Verse 1]\nIf all the clouds become our enemies\nAnd the rain begins to fall\nAnd the rain begins to fall\nWould you still be there standing next to me
+\nWith our backs against the wall\nWith our backs against the wall"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--       Pre-Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Pre-Chorus]\nBut darling when the sky is dark I still see it \nclearly I see you"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Chorus]\nEven when we're miles apart\nI'll still hold you close\nAnd whenever I walk too far\nYou'll still be my home
+\nHoney there's no easy part\nNo matter what you're told\nBut even when we're miles apart I'll still hold\nyou close"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Second Verse-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Verse 2]\nFor all the times we've had our differences\nAnd the tears began to fall\nAnd the tears began to fall\n
+We've always made it too the final step\nTo look back at it all, God damn we've seen\nit all"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--       Pre-Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Pre-Chorus]\nBut darling when the sky is dark I still see it \nclearly I see you"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Chorus]\nEven when we're miles apart\nI'll still hold you close\nAnd whenever I walk too far\nYou'll still be my home
+\nHoney there's no easy part\nNo matter what you're told\nBut even when we're miles apart I'll still hold\nyou close"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Outro-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Outro]\nEven when we're miles apart\nI'll still hold you close\nAnd whenever I walk too far You'll still be\nmy home"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

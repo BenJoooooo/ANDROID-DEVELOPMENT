@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/leftarrow"
+                android:padding="15dp"
+                android:layout_marginStart="-20dp"
+                android:layout_centerVertical="true"/>
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/button_customize"
+                android:text="@string/Main"
+                android:textColor="@color/dark_gray"
+                android:layout_marginStart="50dp"/>
+        </RelativeLayout>
+
+        <!--        Main Menu-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Little Thins"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!--        First Verse-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Verse 1: Zayn and Liam]\nYour hand fits in mine like it's made just for me\n
+But bear this in mid: It was meant to be\nAnd I'm joining up the dots with the freckles in your cheks\nAnd it all makes
+sense to me\nI know you've never loved the crinckles by your eyes\nWhen you smile, you've never loved your stomach or your tighs
+\nThe dimples in your back at the bottom of your spine\n
+but I'll love them endlessly"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Chorus: Zayn and Liam]\nI won't let these little thins slip our of my mouth
+But if I do, it's you, oh it's you, they add up to I'm in love with you and all these little things."
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Second Verse-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Verse 2: Louis and Harry]\nYou can't go to bed without a cup of tea\nand maybe that's the reason that you talk in your sleep\n
+And all those conversations are the secrets that I keep\nThough it makes no sense to me\nI know you've never loved the sound of your voice on tape\n
+You never want to know how much you weigh\nYou still have to squeeze into your jeans, But you're perfect to me"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Chorus: Zayn and Liam]\nI won't let these little thins slip our of my mouth
+But if I do, it's you, oh it's you, they add up to I'm in love with you and all these little things."
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--       Bridge-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_margin="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Bridge: Niall]\nYou never love yourself half as much as I love you\nAnd you'll never
+treat yourself right darling but I want you to\nIf I let you know, I'm here for you\nMaybe you'll love yourself like I love you, oh"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <!--        Chorus-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:letterSpacing=".1"
+                    android:lineHeight="18dp"
+                    android:text="[Chorus: Zayn and Liam]\nI won't let these little thins slip our of my mouth
+But if I do, it's you, oh it's you, they add up to I'm in love with you and all these little things."
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
